@@ -1,20 +1,24 @@
 body{
-  background-image: url('./bassire.jpg');
+  background-image: url('img/fond.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   width: 100vw;
   height: 100vh;
   margin: 0px;
-  margin-top: 40px;
 }
 .nav{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   font-size: 25px;
   text-decoration: none;
   margin: 0px;
   list-style: none;
   padding:0px;
+  font-family: 'Paytone One', sans-serif;
+  margin-top: 40px
 }
 .nav a{
   text-decoration: none;
@@ -22,22 +26,24 @@ body{
 }
 
 .bande{
-  height: 300px;
   background-color: white;
   width : 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: ;
+  margin: 0px;
 }
 .bande h1{
   font-size: 90px;
   margin-bottom: 25px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
 }
 .bande p{
   font-size: 40px;
   margin-top: 0px;
+  font-family: 'Anton', sans-serif;
 }
 footer{
   display: flex;
@@ -52,4 +58,8 @@ footer img{
 .container-flex{
   display: flex;
   justify-content: space-around;
+}
+.margin{
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
